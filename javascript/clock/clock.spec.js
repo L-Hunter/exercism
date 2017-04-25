@@ -154,7 +154,7 @@ describe('Clock', function () {
         expect(at(15, 37).equals(at(15, 37))).toBeTruthy();
       });
 
-      xit('clocks a minute apart', function () {
+      it('clocks a minute apart', function () {
         expect(at(15, 36).equals(at(15, 37))).toBeFalsy();
       });
 
